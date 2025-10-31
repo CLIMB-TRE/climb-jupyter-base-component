@@ -1,7 +1,8 @@
+import "./app.scss";
 import "./app.css";
 
 function Main() {
-  return <div>Hello World!</div>;
+  return <div>CLIMB Jupyter</div>;
 }
 
 function App() {
