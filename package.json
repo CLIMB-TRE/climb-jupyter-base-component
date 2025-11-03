@@ -3,12 +3,30 @@
   "version": "0.2.0",
   "description": "Base styling and utilities for CLIMB Jupyter GUIs",
   "homepage": "https://github.com/CLIMB-TRE/climb-jupyter-base-component",
+  "bugs": {
+    "url": "https://github.com/CLIMB-TRE/climb-jupyter-base-component/issues"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "Thomas Brier",
+    "email": "t.o.brier@bham.ac.uk"
+  },
+  "contributors": [
+    {
+      "name": "Thomas Brier",
+      "email": "t.o.brier@bham.ac.uk"
+    }
+  ],
   "type": "module",
-  "main": "dist/app.js",
+  "main": "dist/climb-jupyter-base-component.js",
   "types": "dist/main.d.ts",
   "files": [
     "dist"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CLIMB-TRE/climb-jupyter-base-component.git"
+  },
   "sideEffects": [
     "**/*.css"
   ],
