@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import { PersistedStateProps } from "../types";
 
 export function useDebouncedValue<T>(inputValue: T, delay: number) {
   const [debouncedValue, setDebouncedValue] = useState(inputValue);
@@ -37,11 +38,6 @@ export const useCyclicValue = (start: number, end: number, pause?: number) => {
 
   return value;
 };
-
-export interface PersistedStateProps {
-  getItem?: (key: string) => unknown;
-  setItem?: (key: string, value: unknown) => void;
-}
 
 export function usePersistedState<T>(
   props: PersistedStateProps,
