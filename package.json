@@ -1,6 +1,7 @@
 {
   "name": "climb-jupyter-base-component",
-  "version": "0.1.0",
+  "version": "0.2.0",
+  "description": "Base styling and utilities for CLIMB Jupyter GUIs",
   "type": "module",
   "main": "dist/app.js",
   "types": "dist/main.d.ts",
