@@ -1,10 +1,10 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import App from "../lib/App.tsx";
+import ClimbJupyter from "../lib/ClimbJupyter.tsx";
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <ClimbJupyter />
   </React.StrictMode>,
   document.getElementById("root")
 );
