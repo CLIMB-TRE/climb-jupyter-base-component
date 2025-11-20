@@ -1,7 +1,11 @@
 {
   "name": "climb-jupyter-base-component",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "Base styling and utilities for CLIMB Jupyter GUIs",
+  "keywords": [
+    "climb",
+    "jupyter"
+  ],
   "homepage": "https://github.com/CLIMB-TRE/climb-jupyter-base-component",
   "bugs": {
     "url": "https://github.com/CLIMB-TRE/climb-jupyter-base-component/issues"
@@ -41,21 +45,20 @@
     "bootstrap": "^5.3.7"
   },
   "peerDependencies": {
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2"
+    "react": "^17.0.1 || ^18.2.0",
+    "react-dom": "^17.0.1 || ^18.2.0"
   },
   "devDependencies": {
     "@types/node": "^20.12.12",
-    "@types/react": "^17.0.83",
-    "@types/react-dom": "^17.0.25",
+    "@types/react": "^18.0.26",
     "@typescript-eslint/eslint-plugin": "^7.2.0",
     "@typescript-eslint/parser": "^7.2.0",
     "@vitejs/plugin-react-swc": "^3.5.0",
     "eslint": "^8.57.0",
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-react-refresh": "^0.4.6",
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2",
+    "react": "^17.0.1 || ^18.2.0",
+    "react-dom": "^17.0.1 || ^18.2.0",
     "sass-embedded": "^1.89.2",
     "typescript": "^5.2.2",
     "vite": "^5.2.0",
